@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: doormed;
+}
+@font-face{
+    font-family: doorreg;
+    src:url(assets/TTNorms-Regular.woff2);
+}
+@font-face {
+    font-family: doormed;
+    src: url(assets/TTNorms-Medium.woff2);
+
+}
+@font-face {
+    font-family: doorbold;
+    src: url(assets/TTNorms-Bold.woff2);
+}
+header{
+    background-image: url(images/banner1.webp);
+    /* background-size: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: contain;
+}
+.sign-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-family: doorbold;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.sign-in p{
+    padding: 0 16px;
+    font-size: 18px;
+
+}
+.sign-up p{
+    padding: 0 16px;
+    color: #494949;
+    padding: 0 10px;
+}
+.sign-up{
+    background-color:white;
+    border-radius: 1000px;
+    padding: 10px 5px;
+}
+.header-main-conta\iner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 43px 0 96px;
+    gap: 20px;
+}
+.rest-tag{
+    font-size: 30px;
+    color: white;
+    font-family: doorbold;
+    font-weight: 600;
+    width: 314px;
+    line-height: 40px;
+    text-align: center;
+}
+.address-location-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    font-size: 14px;
+    padding: 0 20px;
+    min-width: 268px;
+  
+}
+.address-location-conatiner .arrow{
+    margin-left: auto;
+}
+.address-card{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    box-shadow:rgb(0 0 0/20%)  0px 2px 8px;
+    gap: 10px;
+   
+}
+.address-card p{
+    color: #494949;
+}
+.location-card{
+    background-color: white;
+    min-height: 70px;
+    width: 100%;
+    padding: 0 8px;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 /20%) 0px 2px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.location-box{
+    display: flex;
+    border-bottom: 1px solid rgb(229, 227, 227);
+    gap: 16px;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.location-box p{
+    color: #494949;
+    font-weight: 600;
+}
+.user-box{
+    border-top: none;
+    padding-top: 5px;
+}
