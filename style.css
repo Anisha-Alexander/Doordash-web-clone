@@ -21,7 +21,7 @@ header{
     /* background-size: center; */
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: contain;
+    background-position:right;
 }
 .sign-container{
     display: flex;
@@ -116,4 +116,51 @@ header{
 .user-box{
     border-top: none;
     padding-top: 5px;
+}
+section{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+    
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    max-width: 362px;
+    /* background-color: yellow; */
+    margin: 40px 0;
+}
+.card-one{
+    display: flex;
+    gap: 32px;
+    min-width: 270px;
+}
+.image-box img{
+    width: 88px;
+    height: 88px;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.text-box h2{
+    font-size: 32px;
+}
+.text-box h3{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.text-link{
+    color: #eb1700;
+    font-size: 14px;
+    font-weight: 600;
+}
+.text-link .right-arrow{
+    font-size: 20px;
+    font-weight: bold;
 }
