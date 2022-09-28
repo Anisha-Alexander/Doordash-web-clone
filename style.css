@@ -117,6 +117,65 @@ header{
     border-top: none;
     padding-top: 5px;
 }
+
+nav{
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100vw - 4px);
+    align-items: flex-start;
+    margin: 0 16px;
+    padding: 24px 0;
+
+}
+.text-btn-container{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 20px;
+    padding: 8px 4px;
+    max-width: 300px;
+}
+.text-btn-container .t-head{
+    width: 56%;
+    /* min-width: 38%; */
+    max-width: 60%;
+    
+}
+.text-btn-container .button{
+    width: auto;
+    /* max-width: 100%; */
+    position: relative;
+    margin: 0;
+    padding: 0px;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+}
+.t-head{
+    font-size: 16px;
+    color: rgb(25,25, 25);
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.04ch;
+    /* font-family: sans-serif; */
+    
+}
+.text-arrow-container{
+    display: flex;
+    padding: 8px 0;
+    gap: 15px;
+    width: 310px;
+    /* max-width: 295px; */
+    
+}
+.text-arrow-container svg{
+    margin: 0 0 0 4px;
+}
+.t-a-card{
+    display: flex;
+    align-items: center;
+}
 section{
     /* background-color: aqua; */
     display: flex;
@@ -314,6 +373,9 @@ ul{
     align-items: center;
     text-align: center;
     gap: 32px;
+}
+footer h2{
+    font-weight: 500;
 }
 footer li:hover{
     text-decoration: underline;
