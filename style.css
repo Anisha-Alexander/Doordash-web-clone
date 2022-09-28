@@ -122,7 +122,7 @@ nav{
     display: flex;
     flex-direction: column;
     max-width: calc(100vw - 4px);
-    align-items: flex-start;
+    align-items: center;
     margin: 0 16px;
     padding: 24px 0;
 
@@ -166,6 +166,7 @@ nav{
     padding: 8px 0;
     gap: 15px;
     width: 310px;
+    padding-left: 20px;
     /* max-width: 295px; */
     
 }
@@ -195,7 +196,7 @@ section{
 .card-one{
     display: flex;
     gap: 32px;
-    max-width: 341px;
+    max-width: 374px;
     padding: 16px;
 }
 .image-box img{
@@ -431,7 +432,32 @@ footer li:hover{
     justify-content: center;
     
 }
-.foot-end span,svg{
+.foot-end span{
     margin-left: 16px;
     font-size: 12px;
+}
+.foot-end svg{
+    margin-left: 16px;
+    font-size: 12px;
+}
+@media screen and (min-width:468px){
+
+    .img-text-card:nth-child(1){
+        transform: translateY(-42%);
+    }
+    article{
+        padding-top: 39%;
+    }
+}
+@media screen and (min-width:768px){
+    .img-text-card:nth-child(1){
+        flex-direction: row-reverse;
+        transform: translateY(-117px);
+    }
+    .art-image-box img{
+        width: 100%;
+        /* height: 150%; */
+        
+    }
+    
 }
