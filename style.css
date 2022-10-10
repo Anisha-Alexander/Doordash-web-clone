@@ -477,6 +477,16 @@ footer li:hover{
         padding: 2px 24px;
     }
 }
+@media screen and (min-width: 623px){
+
+    .img-text-card:nth-child(1){
+        width: 100%;
+    }
+    .img-text-card:nth-child(2){
+        padding: 360px 0px 96px
+    }
+    
+}
 @media screen and (min-width:768px){
     .header-main-container{
         padding: 60px 0 10px;
@@ -504,7 +514,7 @@ footer li:hover{
         flex-grow: row nowrap;
         /* align-items: center; */
         gap: 0;
-        transform: translateY(-100%);
+        transform: translateY(-96%);
         width: 100%;
     }
     .art-image-box{
@@ -726,5 +736,11 @@ footer li:hover{
     .img-text-card:nth-child(2){
         /* max-width: 10px; */
         margin: auto;
+    }
+
+}
+@media screen and (min-width:1400px){
+    .img-text-card:nth-child(1){
+        left: 3%;
     }
 }
