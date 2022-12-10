@@ -1,4 +1,4 @@
 Doordash-web-clone
 
-Completed 
-Using css and html 
+Completed cloning doordash website using css and html 
+
